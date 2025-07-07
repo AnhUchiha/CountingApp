@@ -24,49 +24,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28EDD3962E18CBCA00EFC95D /* CoutingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoutingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		28EDD3A42E18CBCB00EFC95D /* CoutingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoutingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28EDD3AE2E18CBCB00EFC95D /* CoutingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoutingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EDD3962E18CBCA00EFC95D /* CountingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EDD3A42E18CBCB00EFC95D /* CountingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EDD3AE2E18CBCB00EFC95D /* CountingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		28384E6A2E1B60AC005791A2 /* Exceptions for "CoutingAppBasicTests" folder in "CoutingAppTests" target */ = {
+		28384E6A2E1B60AC005791A2 /* Exceptions for "CountingAppTests" folder in "CountingAppTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				CoutingAppBasicTests.swift,
+				CountingAppTests.swift,
 			);
-			target = 28EDD3A32E18CBCB00EFC95D /* CoutingAppTests */;
+			target = 28EDD3A32E18CBCB00EFC95D /* CountingAppTests */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		28384E6B2E1B60AC005791A2 /* Exceptions for "CoutingAppBasicTests" folder in "Copy Bundle Resources" phase from "CoutingAppTests" target */ = {
+		28384E6B2E1B60AC005791A2 /* Exceptions for "CountingAppTests" folder in "Copy Bundle Resources" phase from "CountingAppTests" target */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			buildPhase = 28EDD3A22E18CBCB00EFC95D /* Resources */;
 			membershipExceptions = (
-				CoutingAppBasicTests.swift,
+				CountingAppTests.swift,
 			);
 		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		28EDD3982E18CBCA00EFC95D /* CoutingAppBasic */ = {
+		28EDD3982E18CBCA00EFC95D /* CountingApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CoutingAppBasic;
+			path = CountingApp;
 			sourceTree = "<group>";
 		};
-		28EDD3A72E18CBCB00EFC95D /* CoutingAppBasicTests */ = {
+		28EDD3A72E18CBCB00EFC95D /* CountingAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				28384E6A2E1B60AC005791A2 /* Exceptions for "CoutingAppBasicTests" folder in "CoutingAppTests" target */,
-				28384E6B2E1B60AC005791A2 /* Exceptions for "CoutingAppBasicTests" folder in "Copy Bundle Resources" phase from "CoutingAppTests" target */,
+				28384E6A2E1B60AC005791A2 /* Exceptions for "CountingAppTests" folder in "CountingAppTests" target */,
+				28384E6B2E1B60AC005791A2 /* Exceptions for "CountingAppTests" folder in "Copy Bundle Resources" phase from "CountingAppTests" target */,
 			);
-			path = CoutingAppBasicTests;
+			path = CountingAppTests;
 			sourceTree = "<group>";
 		};
-		28EDD3B12E18CBCB00EFC95D /* CoutingAppBasicUITests */ = {
+		28EDD3B12E18CBCB00EFC95D /* CountingAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CoutingAppBasicUITests;
+			path = CountingAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -99,9 +99,9 @@
 		28EDD38D2E18CBCA00EFC95D = {
 			isa = PBXGroup;
 			children = (
-				28EDD3982E18CBCA00EFC95D /* CoutingAppBasic */,
-				28EDD3A72E18CBCB00EFC95D /* CoutingAppBasicTests */,
-				28EDD3B12E18CBCB00EFC95D /* CoutingAppBasicUITests */,
+				28EDD3982E18CBCA00EFC95D /* CountingApp */,
+				28EDD3A72E18CBCB00EFC95D /* CountingAppTests */,
+				28EDD3B12E18CBCB00EFC95D /* CountingAppUITests */,
 				28EDD3972E18CBCA00EFC95D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,9 +109,9 @@
 		28EDD3972E18CBCA00EFC95D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28EDD3962E18CBCA00EFC95D /* CoutingApp.app */,
-				28EDD3A42E18CBCB00EFC95D /* CoutingAppTests.xctest */,
-				28EDD3AE2E18CBCB00EFC95D /* CoutingAppUITests.xctest */,
+				28EDD3962E18CBCA00EFC95D /* CountingApp.app */,
+				28EDD3A42E18CBCB00EFC95D /* CountingAppTests.xctest */,
+				28EDD3AE2E18CBCB00EFC95D /* CountingAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,9 +119,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28EDD3952E18CBCA00EFC95D /* CoutingApp */ = {
+		28EDD3952E18CBCA00EFC95D /* CountingApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28EDD3B82E18CBCB00EFC95D /* Build configuration list for PBXNativeTarget "CoutingApp" */;
+			buildConfigurationList = 28EDD3B82E18CBCB00EFC95D /* Build configuration list for PBXNativeTarget "CountingApp" */;
 			buildPhases = (
 				28EDD3922E18CBCA00EFC95D /* Sources */,
 				28EDD3932E18CBCA00EFC95D /* Frameworks */,
@@ -132,18 +132,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				28EDD3982E18CBCA00EFC95D /* CoutingAppBasic */,
+				28EDD3982E18CBCA00EFC95D /* CountingApp */,
 			);
-			name = CoutingApp;
+			name = CountingApp;
 			packageProductDependencies = (
 			);
 			productName = MathAppBasic;
-			productReference = 28EDD3962E18CBCA00EFC95D /* CoutingApp.app */;
+			productReference = 28EDD3962E18CBCA00EFC95D /* CountingApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		28EDD3A32E18CBCB00EFC95D /* CoutingAppTests */ = {
+		28EDD3A32E18CBCB00EFC95D /* CountingAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28EDD3BB2E18CBCB00EFC95D /* Build configuration list for PBXNativeTarget "CoutingAppTests" */;
+			buildConfigurationList = 28EDD3BB2E18CBCB00EFC95D /* Build configuration list for PBXNativeTarget "CountingAppTests" */;
 			buildPhases = (
 				28EDD3A02E18CBCB00EFC95D /* Sources */,
 				28EDD3A12E18CBCB00EFC95D /* Frameworks */,
@@ -155,18 +155,18 @@
 				28EDD3A62E18CBCB00EFC95D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				28EDD3A72E18CBCB00EFC95D /* CoutingAppBasicTests */,
+				28EDD3A72E18CBCB00EFC95D /* CountingAppTests */,
 			);
-			name = CoutingAppTests;
+			name = CountingAppTests;
 			packageProductDependencies = (
 			);
 			productName = MathAppBasicTests;
-			productReference = 28EDD3A42E18CBCB00EFC95D /* CoutingAppTests.xctest */;
+			productReference = 28EDD3A42E18CBCB00EFC95D /* CountingAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		28EDD3AD2E18CBCB00EFC95D /* CoutingAppUITests */ = {
+		28EDD3AD2E18CBCB00EFC95D /* CountingAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28EDD3BE2E18CBCB00EFC95D /* Build configuration list for PBXNativeTarget "CoutingAppUITests" */;
+			buildConfigurationList = 28EDD3BE2E18CBCB00EFC95D /* Build configuration list for PBXNativeTarget "CountingAppUITests" */;
 			buildPhases = (
 				28EDD3AA2E18CBCB00EFC95D /* Sources */,
 				28EDD3AB2E18CBCB00EFC95D /* Frameworks */,
@@ -178,13 +178,13 @@
 				28EDD3B02E18CBCB00EFC95D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				28EDD3B12E18CBCB00EFC95D /* CoutingAppBasicUITests */,
+				28EDD3B12E18CBCB00EFC95D /* CountingAppUITests */,
 			);
-			name = CoutingAppUITests;
+			name = CountingAppUITests;
 			packageProductDependencies = (
 			);
 			productName = MathAppBasicUITests;
-			productReference = 28EDD3AE2E18CBCB00EFC95D /* CoutingAppUITests.xctest */;
+			productReference = 28EDD3AE2E18CBCB00EFC95D /* CountingAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 28EDD3912E18CBCA00EFC95D /* Build configuration list for PBXProject "CoutingApp" */;
+			buildConfigurationList = 28EDD3912E18CBCA00EFC95D /* Build configuration list for PBXProject "CountingApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -224,9 +224,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28EDD3952E18CBCA00EFC95D /* CoutingApp */,
-				28EDD3A32E18CBCB00EFC95D /* CoutingAppTests */,
-				28EDD3AD2E18CBCB00EFC95D /* CoutingAppUITests */,
+				28EDD3952E18CBCA00EFC95D /* CountingApp */,
+				28EDD3A32E18CBCB00EFC95D /* CountingAppTests */,
+				28EDD3AD2E18CBCB00EFC95D /* CountingAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		28EDD3A62E18CBCB00EFC95D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28EDD3952E18CBCA00EFC95D /* CoutingApp */;
+			target = 28EDD3952E18CBCA00EFC95D /* CountingApp */;
 			targetProxy = 28EDD3A52E18CBCB00EFC95D /* PBXContainerItemProxy */;
 		};
 		28EDD3B02E18CBCB00EFC95D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28EDD3952E18CBCA00EFC95D /* CoutingApp */;
+			target = 28EDD3952E18CBCA00EFC95D /* CountingApp */;
 			targetProxy = 28EDD3AF2E18CBCB00EFC95D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,7 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CoutingAppBasic/CoutingAppBasic.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CountingApp/CountingApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SJ9Y32UBAP;
@@ -433,7 +433,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.d1atdevv.CoutingAppBasic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.d1atdevv.CountingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -450,7 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CoutingAppBasic/CoutingAppBasic.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CountingApp/CountingApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SJ9Y32UBAP;
@@ -471,7 +471,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.d1atdevv.CoutingAppBasic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.d1atdevv.CountingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -493,14 +493,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.d1atdevv.MathAppBasicTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.d1atdevv.CoutingAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoutingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoutingApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountingApp";
 				XROS_DEPLOYMENT_TARGET = 2.5;
 			};
 			name = Debug;
@@ -515,14 +515,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.d1atdevv.MathAppBasicTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.d1atdevv.CoutingAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoutingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoutingApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountingApp";
 				XROS_DEPLOYMENT_TARGET = 2.5;
 			};
 			name = Release;
@@ -536,7 +536,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.d1atdevv.MathAppBasicUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.d1atdevv.CoutingAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -557,7 +557,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.d1atdevv.MathAppBasicUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.d1atdevv.CoutingAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -572,7 +572,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28EDD3912E18CBCA00EFC95D /* Build configuration list for PBXProject "CoutingApp" */ = {
+		28EDD3912E18CBCA00EFC95D /* Build configuration list for PBXProject "CountingApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28EDD3B62E18CBCB00EFC95D /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28EDD3B82E18CBCB00EFC95D /* Build configuration list for PBXNativeTarget "CoutingApp" */ = {
+		28EDD3B82E18CBCB00EFC95D /* Build configuration list for PBXNativeTarget "CountingApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28EDD3B92E18CBCB00EFC95D /* Debug */,
@@ -590,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28EDD3BB2E18CBCB00EFC95D /* Build configuration list for PBXNativeTarget "CoutingAppTests" */ = {
+		28EDD3BB2E18CBCB00EFC95D /* Build configuration list for PBXNativeTarget "CountingAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28EDD3BC2E18CBCB00EFC95D /* Debug */,
@@ -599,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28EDD3BE2E18CBCB00EFC95D /* Build configuration list for PBXNativeTarget "CoutingAppUITests" */ = {
+		28EDD3BE2E18CBCB00EFC95D /* Build configuration list for PBXNativeTarget "CountingAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28EDD3BF2E18CBCB00EFC95D /* Debug */,

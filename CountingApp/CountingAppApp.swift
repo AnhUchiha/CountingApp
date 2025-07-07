@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct CoutingAppBasicApp: App {
+struct CountingAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
