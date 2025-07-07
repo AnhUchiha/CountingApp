@@ -1,13 +1,6 @@
-//
-//  MathAppBasicUITests.swift
-//  MathAppBasicUITests
-//
-//  Created by Tuấngg Anhhh on 5/7/25.
-//
-
 import XCTest
 
-final class MathAppBasicUITests: XCTestCase {
+final class CoutingAppBasicUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

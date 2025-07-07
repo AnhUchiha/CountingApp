@@ -1,10 +1,3 @@
-//
-//  MathAppBasicTests.swift
-//  MathAppBasicTests
-//
-//  Created by Tuấngg Anhhh on 5/7/25.
-//
-
 import Testing
 
 struct MathAppBasicTests {

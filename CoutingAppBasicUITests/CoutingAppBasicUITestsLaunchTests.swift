@@ -1,13 +1,6 @@
-//
-//  MathAppBasicUITestsLaunchTests.swift
-//  MathAppBasicUITests
-//
-//  Created by Tuấngg Anhhh on 5/7/25.
-//
-
 import XCTest
 
-final class MathAppBasicUITestsLaunchTests: XCTestCase {
+final class CoutingAppBasicUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
