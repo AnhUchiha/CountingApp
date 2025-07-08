@@ -1,18 +1,28 @@
-//
-//  GearIconView.swift
-//  CountingApp
-//
-//  Created by Tuấngg Anhhh on 8/7/25.
-//
-
 import SwiftUI
 
 struct GearIconView: View {
+    @Binding var showSettingView: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            HStack{
+                Button(action: {
+                    withAnimation {
+                        showSettingView.toggle()
+                    }
+                }, label: {
+                    Image(systemName: showSettingView ? "gearshape.fill" : "gearshape")
+                        .imageScale(.large)
+                        .foregroundStyle(.black)
+                })
+                    .padding()
+                Spacer()
+            }
+            Spacer()
+        }
     }
 }
 
 #Preview {
-    GearIconView()
+    GearIconView(showSettingView: .constant(false))
 }

@@ -6,8 +6,6 @@ struct CountingAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-//            MainView()
-//                .environment(gVM)
             StartView()
         }
     }

@@ -2,27 +2,19 @@ import SwiftUI
 
 struct MainView: View {
     @Environment(GameViewModel .self) var gVM
+    @State var showSettingView: Bool = false
     
     var body: some View {
-        VStack {
-            Text("Counting App !")
-            
-            Button {
-                gVM.correctSound()
-            } label: {
-                Image(systemName: "checkmark.seal.fill")
+        ZStack {
+            GearIconView(showSettingView: $showSettingView)
+            VStack {
+                ScoreView(currentScore: gVM.gameModel.score, totalScore: gVM.gameModel.maxTurns)
+                Spacer()
+                Text(showSettingView ? "Setting appearing" : "Setting is hidden")
+                Spacer()
             }
-            .font(.title)
             .padding()
-
-            Button {
-                gVM.incorrectSound()
-            } label: {
-                Image(systemName: "xmark.seal.fill")
-            }
-            .font(.title)
         }
-        .padding()
     }
 }
 
