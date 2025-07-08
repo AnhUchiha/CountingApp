@@ -2,9 +2,12 @@ import SwiftUI
 
 @main
 struct CountingAppApp: App {
+    @State private var gVM: GameViewModel = GameViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environment(gVM)
         }
     }
 }
