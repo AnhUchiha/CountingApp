@@ -4,7 +4,6 @@ struct ScoreView: View {
     let currentScore: Int
     let totalScore: Int
     
-    // Computed property to determine score color
     private var scoreColor: Color {
         let percentage = Double(currentScore) / Double(totalScore)
         switch percentage {
@@ -16,12 +15,10 @@ struct ScoreView: View {
     
     var body: some View {
         HStack(spacing: 8) {
-            // Score icon
             Image(systemName: "star.fill")
                 .foregroundColor(.yellow)
                 .font(.title2)
             
-            // Score text with gradient background
             Text("Score: \(currentScore)/\(totalScore)")
                 .font(.title2)
                 .fontWeight(.bold)
