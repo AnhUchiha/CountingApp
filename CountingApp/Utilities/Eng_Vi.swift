@@ -18,18 +18,18 @@ class EngVi{
         } else {
             let ten = num / 10
             let unit = num % 10
-            engResult = unitsEng[ten] + unitsEng[unit]
+            engResult = tensEng[ten] + " " + unitsEng[unit]
         }
         
         //Vi
         if num <= 10{
             viResult = unitsVie[num]
         } else if num > 10 && num % 10 == 0{
-            viResult = unitsVie[num / 10] + "mươi"
+            viResult = unitsVie[num / 10] + " mươi"
         } else {
             let chuc = num / 10
             let donvi = num % 10
-            viResult = unitsVie[chuc] + "mươi" + unitsVie[donvi]
+            viResult = unitsVie[chuc] + " mươi " + unitsVie[donvi]
         }
         
         return (engResult, viResult)

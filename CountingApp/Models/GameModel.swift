@@ -33,7 +33,12 @@ struct GameModel{
         //mix values
     }
     
+    mutating func resetGame() {
+        turns = 0
+        score = 0
+    }
+    
     static var defaultGame: GameModel{
-        .init(score: 0, maxTurns: 5, volumes: 0.7, turns: 0, answer: 10, alternatives: Int.generateUniqueRandomInt(count: 4).shuffled())
+        .init(score: 0, maxTurns: 5, volumes: 0.7, turns: 0, answer: 10, alternatives: [10, 20, 30, 40].shuffled())
     }
 }
