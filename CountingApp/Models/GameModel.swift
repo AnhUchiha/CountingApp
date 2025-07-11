@@ -34,11 +34,10 @@ struct GameModel{
     }
     
     mutating func resetGame() {
-        turns = 0
-        score = 0
+        self = .defaultGame
     }
     
     static var defaultGame: GameModel{
-        .init(score: 0, maxTurns: 5, volumes: 0.7, turns: 0, answer: 10, alternatives: [10, 20, 30, 40].shuffled())
+        .init(score: 0, maxTurns: 5, volumes: 0.7, turns: 0, answer: 1, alternatives: [1, 2, 3, 4].shuffled())
     }
 }

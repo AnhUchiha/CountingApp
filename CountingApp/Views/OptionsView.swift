@@ -18,7 +18,7 @@ struct OptionsView: View {
             ZStack {
                 RoundedRectangle(cornerRadius: 25)
                     .fill(color)
-                    .frame(width: 200, height: 200)
+                    .frame(width: 180, height: 180)
                     .shadow(color: .gray.opacity(0.5), radius: 10, x: 5, y: 5)
                     .overlay(
                         RoundedRectangle(cornerRadius: 25)

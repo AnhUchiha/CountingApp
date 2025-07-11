@@ -29,6 +29,15 @@ struct MainView: View {
             }
             .padding()
         }
+        .fullScreenCover(isPresented: $done) {
+            GameOverView()
+        }
+        .fullScreenCover(isPresented: $showSettingView, content: {
+            SettingView(showSettingView: $showSettingView, volume: gVM.gameModel.volumes)
+        })
+        .onChange(of: gameOver) { oldValue, newValue in
+            done = gameOver
+        }
     }
 }
 
