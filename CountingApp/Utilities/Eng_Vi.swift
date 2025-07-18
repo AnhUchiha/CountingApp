@@ -29,7 +29,13 @@ class EngVi{
         } else {
             let chuc = num / 10
             let donvi = num % 10
-            viResult = unitsVie[chuc] + " mươi " + unitsVie[donvi]
+            if donvi == 5 {
+                viResult = unitsVie[chuc] + " mươi lăm"
+            } else if donvi == 1 {
+                viResult = unitsVie[chuc] + " mươi mốt"
+            } else {
+                viResult = unitsVie[chuc] + " mươi " + unitsVie[donvi]
+            }
         }
         
         return (engResult, viResult)
