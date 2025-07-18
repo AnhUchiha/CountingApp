@@ -9,7 +9,6 @@ class EngVi{
         var engResult:String
         var viResult: String
         
-        //Eng
         if num < 20{
             engResult = unitsEng[num]
         } else if num >= 20 && num % 10 == 0{
@@ -20,8 +19,7 @@ class EngVi{
             let unit = num % 10
             engResult = tensEng[ten] + " " + unitsEng[unit]
         }
-        
-        //Vi
+    
         if num <= 10{
             viResult = unitsVie[num]
         } else if num > 10 && num % 10 == 0{
